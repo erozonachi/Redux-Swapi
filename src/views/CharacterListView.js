@@ -32,7 +32,7 @@ class CharacterListView extends React.Component {
 function mapStateToProps(state) {
   return {
     characters: state.charsReducer.characters,
-    fetching: state.fetching
+    fetching: state.charsReducer.fetching
   }
 }
 export default connect(

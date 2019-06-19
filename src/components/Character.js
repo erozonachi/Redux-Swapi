@@ -6,7 +6,7 @@ const Character = props => {
 };
 
 Character.propTypes = {
-  character: PropTypes.objectOf(PropTypes.shape({name: PropTypes.string})).isRequired
+  character: PropTypes.object.isRequired
 }
 
 export default Character;
