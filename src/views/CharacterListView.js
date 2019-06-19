@@ -32,8 +32,8 @@ const mapStateToProps = state => ({
   fetching: state.fetching
 });
 export default connect(
-  null /* mapStateToProps replaces null here */,
+  mapStateToProps /* mapStateToProps replaces null here */,
   {
-    /* action creators go here */
+    getCharacters /* action creators go here */
   }
 )(CharacterListView);
